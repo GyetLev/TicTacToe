@@ -1,0 +1,46 @@
+html {
+    background-image: url(chalkboard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+table,
+td,
+tr,
+th {
+    text-align: center;
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding: 3px;
+}
+
+table {
+    border: 5px solid black !important;
+    background-color: rgb(255, 255, 255);
+}
+
+#inputs {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    display: grid;
+    row-gap: 10px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
+#idozito,
+#nemjo {
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}

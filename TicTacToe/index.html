@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amőba</title>
+    <script src="tablazat.js"></script>
+    <script src="kapcsolat.js"></script>
+    <!--<style src= "style.css"></style>-->
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+
+    <div id="inputs">
+        
+        <h1>TIC TAC TOE</h1>
+
+        <div id="table">
+            Sor: <input type="text" id="sor" value=""> Oszlop:<input type="text" id="oszlop" value="">
+            <button id="t" onclick="megjelenit()">
+                Tábla 
+            </button>
+        </div>
+        
+        <div id="selection">
+            X: <input type="text" id="xkor" value="">
+            Y: <input type="text" id="ykor" value="">
+
+            <select id= "karakter">
+                <option value="X">
+                X
+                </option>
+                <option value="O">
+                O    
+                </option>
+            </select>
+        </div>
+
+        <div id="send">       
+            <button onclick="meghiv()">
+                Küld
+            </button>
+        </div>
+        
+        <div>
+            <button onclick="ujjatek()">
+                Új játék
+            </button>
+        </div>
+
+    </div>
+
+    <div id ="tablazat">        
+    </div>
+    <div id ="felvisz">
+    </div>
+    <div id ="idozito">
+    </div>
+    <div id ="nemjo">
+    </div>
+    
+</body>
+</html>
